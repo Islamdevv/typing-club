@@ -1,0 +1,65 @@
+.main_welcome_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+    & .about_welcome_section{
+
+        & .welcome1 p{
+            color: white;
+            font-size: 35px;
+            font-weight: 400;
+            font-family: DM mono;
+        }
+        & span {
+            color: blueviolet;
+            font-family: Audiowide;
+        }
+
+        & .welcome2 p {
+            color: white;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: DM mono;
+            margin-top: 30px;
+            margin-bottom: 90px;
+        }
+
+        & button {
+            width: 190px;
+            height: 55px;
+            border: none;
+            background-color: blueviolet;
+            font-size: 18px;
+            font-weight: 550;
+            font-family: Audiowide;
+            color: black;
+            cursor: pointer;
+        }
+    }
+
+    & .img_welcome_section {
+        display: block;
+        & img {
+            width: 500px;
+        }
+        
+        & .helper {
+            width: 500px;
+            height: 40px;
+            background-color: black;
+            position: absolute;
+            margin-top: -34px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .main_welcome_section {
+        .img_welcome_section {
+            display: none;
+        }
+    }
+}

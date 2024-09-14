@@ -1,0 +1,38 @@
+.new_h1 {
+    font-family: Audiowide;
+    color: blueviolet;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    & .content_div {
+        height: 400px;
+        width: 5px;
+        background-color: blueviolet;
+        display: block;
+    }
+
+    & .content_about p{
+        color: white;
+        font-family: DM mono;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .content {
+        .content_div {
+            display: none;
+        }
+        .content_about p {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.main_type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h1 {
+        font-family: Audiowide;
+        margin-top: 50px;
+        margin-bottom: -20px;
+    }
+}

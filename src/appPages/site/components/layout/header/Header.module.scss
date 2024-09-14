@@ -1,0 +1,73 @@
+header {
+    width: 100%;
+    // position: fixed;
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0;
+    
+        & h1 {
+            font-size: 40px;
+            font-weight: 400;
+            font-family: Audiowide;
+            color: blueviolet;
+            cursor: pointer;
+            user-select: none;
+        }
+    
+        & .main_auth_block {
+            display: flex;
+            align-items: center;
+            gap: 70px;
+
+            .user_profile {
+                display: block;
+            }
+    
+            & .auth_sign_up {
+                width: 100px;
+                height: 40px;
+                background-color: blueviolet;
+                border: 1px solid blueviolet;
+                font-family: Audiowide;
+                color: black;
+                font-weight: 400;
+                cursor: pointer;
+            }
+    
+            & .auth_sign_in {
+                width: 100px;
+                height: 40px;
+                background-color: transparent;
+                border: 1px solid blueviolet;
+                font-family: Audiowide;
+                color: blueviolet;
+                font-weight: 400;
+                cursor: pointer;
+            }
+        }
+    
+        & .auth_block {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        .content {
+            .main_auth_block {
+                .user_profile {
+                    display: none;
+                }
+            }
+        }
+    }
+}

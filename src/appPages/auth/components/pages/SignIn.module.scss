@@ -1,0 +1,47 @@
+.in_h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    font-family: Audiowide;
+}
+
+.main_in_inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    & input {
+        width: 400px;
+        height: 45px;
+        padding: 25px;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid blueviolet;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Audiowide;
+        color: blueviolet;
+    }
+     & button {
+        width: 400px;
+        height: 45px;
+        border: none;
+        background-color: blueviolet;
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Audiowide;
+        cursor: pointer;
+     }
+
+     & p {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: DM mono;
+        cursor: pointer;
+     }
+}
